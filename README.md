@@ -34,8 +34,8 @@
 	  ./dict play<br/>
 	  The program displays a synonym and ask the user to guess the word.<br/>
 
-	  If correct word is entered, program should tells that the word is correct.<br/>
-	  *Other(not displayed) Synonyms of the word are accepted as correct answer.<br/>
+			If correct word is entered, program  tells that the word is correct.
+			*Other(not displayed) Synonyms of the word are accepted as correct answer.
 	  
     		If incorrect word is entered, program asks for
 			1. try again
@@ -43,9 +43,9 @@
 
 		  	2. hint
 			   Display a hint in form of another synonym of the word, and let the user to enter word again.
-        		   If no more synonyms are available, tells the user "No more hints are available".
+			   If no more synonyms are available, tells the user "No more hints are available".
 		
-      		  	3. quit
+			3. quit
 		           Display the word, its full dict, and quits.
    
    To run these commands properly set the node location correctly in shebang line. 
