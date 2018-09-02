@@ -37,16 +37,16 @@
 	  If correct word is entered, program should tells that the word is correct.<br/>
 	  *Other(not displayed) Synonyms of the word are accepted as correct answer.<br/>
 	  
-    		If incorrect word is entered, program asks for<br/>
-			1. try again<br/>
-			   Lets the user to enter word again.<br/><br/>
+    		If incorrect word is entered, program asks for
+			1. try again
+			   Lets the user to enter word again.
 
-		  	2. hint<br/>
-			   Display a hint in form of another synonym of the word, and let the user to enter word again.<br/>
+		  	2. hint
+			   Display a hint in form of another synonym of the word, and let the user to enter word again.
         		   If no more synonyms are available, tells the user "No more hints are available".
 		
-      		  	3. quit<br/>
-		           Display the word, its full dict, and quits.<br/>
+      		  	3. quit
+		           Display the word, its full dict, and quits.
    
    To run these commands properly set the node location correctly in shebang line. 
    Otherwise you can always try it with node ./dict <command> <word>.
