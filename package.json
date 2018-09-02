@@ -1,0 +1,29 @@
+{
+  "name": "dtool",
+  "version": "1.0.0",
+  "description": "Command Line Dictionary Tool",
+  "main": "./dict.js",
+  "bin": {
+    "./dict": "./dict.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/o-p-s/command-line-dictionary-tool.git"
+  },
+  "author": "Om Prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/o-p-s/command-line-dictionary-tool/issues"
+  },
+  "homepage": "https://github.com/o-p-s/command-line-dictionary-tool#readme",
+  "dependencies": {
+    "colors": "^1.3.2",
+    "commander": "^2.17.1",
+    "inquirer": "^6.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
