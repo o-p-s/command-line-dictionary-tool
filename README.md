@@ -49,5 +49,5 @@
 		           Display the word, its full dict, and quits.
    
    To run these commands properly set the node location correctly in shebang line. 
-   Otherwise you can always try it with node ./dict <command> <word>.
+   Otherwise you can always try them with node ./dict command word.
    
