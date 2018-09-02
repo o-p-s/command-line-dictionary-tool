@@ -1,38 +1,38 @@
 # command-line-dictionary-tool
 
-1. Installation \n
-    To install this tool run npm install in this directory.
-    Use npm link.
-    Change Shebang line according to node installation int ./dict.js.
+1. Installation <br/>
+    To install this tool run npm install in this directory. <br/>
+    Use npm link.<br/>
+    Change Shebang line according to node installation int ./dict.js.<br/>
    
-2. Commands \n
- => Word Definitions
-	  Display definitions of a word. 
-	  ./dict def <word>
+2. Commands <br/>
+ => Word Definitions<br/>
+	  Display definitions of a word. <br/>
+	  ./dict def <word><br/>
 
- => Word Synonyms
-	  Display synonyms of a word. 
-	  ./dict syn <word>
+ => Word Synonyms<br/>
+	  Display synonyms of a word. <br/>
+	  ./dict syn <word><br/>
     
- => Word Antonyms
-	  Display antonyms of a word
-	  . /dict ant <word>
+ => Word Antonyms<br/>
+	  Display antonyms of a word<br/>
+	  . /dict ant <word><br/>
 
  => Word Examples
 	  Display examples of a word
 	  ./dict ex <word>
 
- => Word Full Dict
-	  Display all above details for a word
-	  ./dict <word> or ./dict dict <word>
+ => Word Full Dict<br/>
+	  Display all above details for a word<br/>
+	  ./dict <word> or ./dict dict <word><br/>
 
- => Word of the Day Full Dict
-	  Display all above details of word of the day
-	  ./dict
+ => Word of the Day Full Dict<br/>
+	  Display all above details of word of the day<br/>
+	  ./dict <br/>
 
- => Word Game
-	  ./dict play
-	  The program displays a synonym and ask the user to guess the word.
+ => Word Game<br/>
+	  ./dict play<br/>
+	  The program displays a synonym and ask the user to guess the word.<br/>
 
 	  If correct word is entered, program should tells that the word is correct.
 	  * Other(not displayed) Synonyms of the word are accepted as correct answer.
