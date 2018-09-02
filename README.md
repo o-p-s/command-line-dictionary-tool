@@ -18,9 +18,9 @@
 	  Display antonyms of a word<br/>
 	  . /dict ant <word><br/>
 
- 	=> Word Examples
-	  Display examples of a word
-	  ./dict ex <word>
+ 	=> Word Examples<br/>
+	  Display examples of a word<br/>
+	  ./dict ex <word><br/>
 
  	=> Word Full Dict<br/>
 	  Display all above details for a word<br/>
@@ -35,18 +35,18 @@
 	  The program displays a synonym and ask the user to guess the word.<br/>
 
 	  If correct word is entered, program should tells that the word is correct.<br/>
-	  * Other(not displayed) Synonyms of the word are accepted as correct answer.<br/>
+	  *Other(not displayed) Synonyms of the word are accepted as correct answer.<br/>
 	  
     		If incorrect word is entered, program asks for<br/>
-		  - 1. try again<br/>
-			Lets the user to enter word again.<br/><br/>
+			1. try again<br/>
+			   Lets the user to enter word again.<br/><br/>
 
-		  - 2. hint<br/>
-			Display a hint in form of another synonym of the word, and let the user to enter word again.<br/>
-        		If no more synonyms are available, tells the user "No more hints are available".
+		  	2. hint<br/>
+			   Display a hint in form of another synonym of the word, and let the user to enter word again.<br/>
+        		   If no more synonyms are available, tells the user "No more hints are available".
 		
-      		  - 3. quit<br/>
-			Display the word, its full dict, and quits.<br/>
+      		  	3. quit<br/>
+		           Display the word, its full dict, and quits.<br/>
    
    To run these commands properly set the node location correctly in shebang line. 
    Otherwise you can always try it with node ./dict <command> <word>.
