@@ -1,11 +1,11 @@
 # command-line-dictionary-tool
 
-1. Installation 
+1. Installation \n
     To install this tool run npm install in this directory.
     Use npm link.
     Change Shebang line according to node installation int ./dict.js.
    
-2. Commands 
+2. Commands \n
  => Word Definitions
 	  Display definitions of a word. 
 	  ./dict def <word>
@@ -35,11 +35,11 @@
 	  The program displays a synonym and ask the user to guess the word.
 
 	  If correct word is entered, program should tells that the word is correct.
-	  * Other(not displayed) Synonyms of the word should are accepted as correct answer.
+	  * Other(not displayed) Synonyms of the word are accepted as correct answer.
 	  
     If incorrect word is entered, program asks for
 		  - 1. try again
-			  Lets the user to enter word again
+			  Lets the user to enter word again.
 
 		  - 2. hint
 			  Display a hint in form of another synonym of the word, and let the user to enter word again.
