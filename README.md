@@ -6,47 +6,47 @@
     Change Shebang line according to node installation int ./dict.js.<br/>
    
 2. Commands <br/>
- => Word Definitions<br/>
+ 	=> Word Definitions<br/>
 	  Display definitions of a word. <br/>
 	  ./dict def <word><br/>
 
- => Word Synonyms<br/>
+	=> Word Synonyms<br/>
 	  Display synonyms of a word. <br/>
 	  ./dict syn <word><br/>
     
- => Word Antonyms<br/>
+	=> Word Antonyms<br/>
 	  Display antonyms of a word<br/>
 	  . /dict ant <word><br/>
 
- => Word Examples
+ 	=> Word Examples
 	  Display examples of a word
 	  ./dict ex <word>
 
- => Word Full Dict<br/>
+ 	=> Word Full Dict<br/>
 	  Display all above details for a word<br/>
 	  ./dict <word> or ./dict dict <word><br/>
 
- => Word of the Day Full Dict<br/>
+	=> Word of the Day Full Dict<br/>
 	  Display all above details of word of the day<br/>
 	  ./dict <br/>
 
- => Word Game<br/>
+	=> Word Game<br/>
 	  ./dict play<br/>
 	  The program displays a synonym and ask the user to guess the word.<br/>
 
-	  If correct word is entered, program should tells that the word is correct.
-	  * Other(not displayed) Synonyms of the word are accepted as correct answer.
+	  If correct word is entered, program should tells that the word is correct.<br/>
+	  * Other(not displayed) Synonyms of the word are accepted as correct answer.<br/>
 	  
-    If incorrect word is entered, program asks for
-		  - 1. try again
-			  Lets the user to enter word again.
+    		If incorrect word is entered, program asks for<br/>
+		  - 1. try again<br/>
+			Lets the user to enter word again.<br/><br/>
 
-		  - 2. hint
-			  Display a hint in form of another synonym of the word, and let the user to enter word again.
-        If no more synonyms are available, tells the user "No more hints are available".
+		  - 2. hint<br/>
+			Display a hint in form of another synonym of the word, and let the user to enter word again.<br/>
+        		If no more synonyms are available, tells the user "No more hints are available".
 		
-      -3 quit
-			  Display the word, its full dict, and quits.
+      		  - 3. quit<br/>
+			Display the word, its full dict, and quits.<br/>
    
    To run these commands properly set the node location correctly in shebang line. 
    Otherwise you can always try it with node ./dict <command> <word>.
