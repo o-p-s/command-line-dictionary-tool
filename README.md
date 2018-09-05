@@ -26,10 +26,6 @@
 	  Display all above details for a word<br/>
 	  ./dict <word> or ./dict dict <word><br/>
 
-	=> Word of the Day Full Dict<br/>
-	  Display all above details of word of the day<br/>
-	  ./dict <br/>
-
 	=> Word Game<br/>
 	  ./dict play<br/>
 	  The program displays a synonym and ask the user to guess the word.<br/>
