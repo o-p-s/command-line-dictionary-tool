@@ -7,11 +7,8 @@ program
     .usage('<keywords>')
     .parse(process.argv);
 
-if(!program.args.length) {
-    cmdController.wordOfTheDay();
-} else {
     switch(program.args[0]){
-        case 'def'  : cmdController.definition(program.args[1]);
+        case 'def'  : cmdController.definitions(program.args[1]);
                       break;
         case 'syn'  : cmdController.synonyms(program.args[1]);
                       break;
@@ -21,9 +18,9 @@ if(!program.args.length) {
                       break;
         case 'dict' : cmdController.fullDictionary(program.args[1]);
                       break;
-        case 'play' : cmdController.playGame();
+        case 'play' : cmdController.playGame('lay');
                       break;
         default     : cmdController.fullDictionary(program.args[0]);
                       break;  
     }
-}
+
